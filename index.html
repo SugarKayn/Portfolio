@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Evgheni CERNEI - Système & Cloud</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/simple-icons-font@latest/dist/simpleIcons.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+
+    <nav class="glass-nav">
+        <div class="logo"><span>></span> root@portfolio:~#</div>
+        <div class="nav-links">
+            <a href="#about">Bio</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
+            <a href="assets/mon-cv.pdf" class="btn-cv" target="_blank">Mon CV.pdf</a>
+        </div>
+    </nav>
+
+    <main>
+        <header id="about" class="hero">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-controls">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="terminal-header-title">Evgheni — bash — 80×24</div>
+                    <div class="terminal-spacer"></div>
+                </div>
+                <div class="terminal-body">
+                    <p class="prompt-line"><span class="prompt">$</span> run identity.sh</p>
+                    
+                    <div class="terminal-main-display">
+                        <h1 class="terminal-name">EVGHENI CERNEI</h1>
+                        <p class="terminal-goal">Aspirant Ingénieur Cloud & DevOps</p>
+                    </div>
+
+                    <div class="terminal-separator"></div>
+
+                    <div class="terminal-status">
+                        <p><span class="prompt">$</span> location: <span class="response">France</span></p>
+                        <p><span class="prompt">$</span> status: <span class="response">BTS SIO SISR (Student)</span></p>
+                        
+                        <div class="social-line">
+                            <span class="prompt">$</span> links: 
+                            <div class="social-icons">
+                                <a href="https://github.com/SugarKayn" target="_blank" title="GitHub">
+                                    <i data-lucide="github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/evgheni-cernei-8845b1166" target="_blank" title="LinkedIn">
+                                    <i data-lucide="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="terminal-cursor-line"><span class="prompt">$</span> <span class="cursor">_</span></p>
+                </div>
+            </div>
+        </header>
+
+        <section id="skills">
+            <h2 class="section-title">Stack Technique</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i data-lucide="server"></i>
+                    <h3>Virtualisation</h3>
+                    <p>Environnements Linux et Windows sous VMware et VirtualBox.</p>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="shield-check"></i>
+                    <h3>Réseau & Sécurité</h3>
+                    <p>Configuration Cisco (VLAN, Routage, Port-Security).</p>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="terminal"></i>
+                    <h3>Systèmes Linux</h3>
+                    <p>Administration Debian, scripting Bash, gestion SSH.</p>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="cloud"></i>
+                    <h3>Cloud (Objectifs)</h3>
+                    <p>Veille technologique sur AWS et Docker.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dev-languages">
+            <h2 class="section-title accent-title">Langages & Développement</h2>
+            <div class="skills-grid-small">
+                <div class="skill-card-small">
+                    <i data-lucide="code-2"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-card-small">
+                    <i data-lucide="scroll"></i>
+                    <span>LUA / Luau</span>
+                </div>
+                <div class="skill-card-small">
+                    <i data-lucide="database"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="skill-card-small">
+                    <i data-lucide="layout"></i>
+                    <span>HTML / CSS / JS</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="project-category">
+                <h2 class="section-title">Projets Scolaires</h2>
+                <div class="projects-container">
+                    <article class="project-card tp-card">
+                        <div class="project-tags"><span>Linux</span><span>Bash</span></div>
+                        <h3>Administration & Automatisation Linux</h3>
+                        <p>Gestion des permissions, arborescence et scripting de sauvegarde.</p>
+                        <a href="tp-linux.html" class="btn-detail">Consulter le rapport →</a>
+                    </article>
+
+                    <article class="project-card tp-card">
+                        <div class="project-tags"><span>Sécurité</span><span>IAM</span></div>
+                        <h3>Gouvernance des Accès & Privilèges</h3>
+                        <p>Administration users/groupes, SetGID et gestion Sudoers.</p>
+                        <a href="tp-users.html" class="btn-detail">Consulter le rapport →</a>
+                    </article>
+
+                    <article class="project-card tp-card">
+                        <div class="project-tags"><span>Admin</span><span>Entreprise</span></div>
+                        <h3>Simulation Admin Système Junior</h3>
+                        <p>Infrastructure sécurisée pour TechSolutions : segmentation.</p>
+                        <a href="tp-entreprise.html" class="btn-detail">Consulter le rapport →</a>
+                    </article>
+
+                    <article class="project-card tp-card">
+                        <div class="project-tags"><span>Réseau</span><span>Web</span></div>
+                        <h3>Déploiement DNS & Serveur Apache</h3>
+                        <p>Configuration Bind9 et hébergement via Apache2.</p>
+                        <a href="tp-web-dns.html" class="btn-detail">Consulter le rapport →</a>
+                    </article>
+
+                    <article class="project-card tp-card">
+                        <div class="project-tags"><span>Haute Dispo</span><span>HAProxy</span></div>
+                        <h3>Load Balancing & Haute Disponibilité</h3>
+                        <p>Répartition de charge via HAProxy entre serveurs redondants.</p>
+                        <a href="tp-loadbalancer.html" class="btn-detail">Consulter le rapport →</a>
+                    </article>
+
+                    <article class="project-card tp-card">
+                        <div class="project-tags"><span>Windows Server</span><span>IAM</span></div>
+                        <h3>Déploiement Active Directory</h3>
+                        <p>Domaine technova.local avec gestion des OU, utilisateurs, partage réseau et GPO.</p>
+                        <a href="tp-active-directory.html" class="btn-detail">Consulter le rapport →</a>
+                    </article>
+
+                    <article class="project-card tp-card">
+                        <div class="project-tags"><span>ITSM</span><span>GLPI</span></div>
+                        <h3>Gestion de Parc avec GLPI</h3>
+                        <p>Installation stack LAMP, déploiement GLPI, inventaire automatique et helpdesk.</p>
+                        <a href="tp-glpi.html" class="btn-detail">Consulter le rapport →</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="project-category">
+                <h2 class="section-title accent-title">Projets Personnels</h2>
+                <div class="projects-container">
+                    <article class="project-card perso-card">
+                        <div class="project-tags"><span>LUA</span><span>MySQL</span></div>
+                        <h3>Développement & Gestion FiveM</h3>
+                        <p>Optimisation de scripts serveurs et maintenance d'infrastructure Linux.</p>
+                    </article>
+                    <article class="project-card perso-card">
+                        <div class="project-tags"><span>Luau</span><span>OOP</span></div>
+                        <h3>Architecture & Scripting Roblox</h3>
+                        <p>Programmation asynchrone et gestion de données persistantes.</p>
+                    </article>
+                    <article class="project-card perso-card">
+                        <div class="project-tags"><span>AWS</span><span>VPN</span><span>Cloud</span></div>
+                        <h3>VPN Privé sur Infrastructure AWS</h3>
+                        <p>Déploiement d'un VPN personnel (WireGuard) sur une instance EC2, accessible depuis PC et iPhone, pour un accès sécurisé depuis n'importe où.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap">
+            <h2 class="section-title">Parcours & Ambition</h2>
+            <div class="terminal-window">
+                <div class="terminal-body">
+                    <div class="timeline">
+                        <div class="timeline-item goal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">OBJECTIF FINAL</span>
+                                <h3>Architecte Solution Cloud</h3>
+                                <p>Conception d'architectures cloud résilientes, scalables et sécurisées (Kubernetes, Terraform).</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item active">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">AUJOURD'HUI</span>
+                                <h3>BTS SIO SISR (Expertise Système & Réseau)</h3>
+                                <p>Administration Linux avancée, services (DNS, Apache) et haute disponibilité.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2020</span>
+                                <h3>Obtention du Baccalauréat Professionel Systèmes Numériques (SN), Mention Bien</h3>
+                                <p>Point de départ de mon cursus académique et de ma spécialisation technique.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section id="contact" style="margin-top: 80px;">
+    <h2 class="section-title">Me Contacter</h2>
+    <div class="contact-container">
+        <form id="contact-form" action="https://formspree.io/f/xeelljdy" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" placeholder="Pedro" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="pedro@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Bonjour Evgheni, j'aimerais discuter de..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+                <span>Envoyer le message</span>
+                <i data-lucide="send"></i>
+            </button>
+            
+            <div id="contact-status"></div>
+        </form>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>© 2026 — Evgheni CERNEI — Portfolio</p>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+   <script src="assets/js/script.js"></script> 
+</body>
+</html>
